@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+.card{
+    width: 70%;
+    text-align: center;
+    padding: 20px;
+    border: 0.2px solid rgb(199, 195, 195);
+    color: black;
+    display: flex;
+    flex-direction:column;
+    /* height: 20; */
+    border-radius: 5px;
+    margin: 10px;
+    min-height: 50%;
+
+}
+.card h2{
+    text-align: left;
+    margin-left: 5px;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 198, 10);
+    font-size: 40px;
+    /* text-align: center; */
+    padding: 40px;
+    font-family: 'Nunito', sans-serif;
+    
+}
+#search{
+    padding: 5px;
+}
+
+.inputs{
+    text-align: left;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+.inputs #sub { 
+    width: 70px;
+    height: 25px;
+    border-radius: 0;
+    /* border: 0; */
+    background-color: rgb(255, 198, 10);
+
+}
+.inputs #text{
+    height: 25px;
+    margin-right: 5px;
+}
+
+
+
+ul li{
+    text-align: left;
+    list-style: none;
+    padding: 10px;
+    /* border-bottom: 2px solid black; */
+    border: 1px solid gray;
+    /* width: 100%; */
+    transition: 1s;
+    
+}
+
+ul li:hover{
+    background-color: rgb(94, 93, 93);
+    
+}
+/* font-family: 'Nunito', sans-serif; */
+#buy {
+    width: 50px;
+    background-color: rgb(73, 250, 73);
+    border: 1px solid greenyellow;
+    border-radius: 3px;
+}
+#sell {
+    width: 50px;
+    background-color: rgb(255, 51, 51);
+    border: 1px solid rgb(255, 47, 47);
+    border-radius: 3px;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+}
+.delbutton{
+    background-color:red;
+    border-radius: 1px;
+    padding: 2px;
+}
